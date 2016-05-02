@@ -10,7 +10,7 @@ $curl = curl_init();
 curl_setopt_array($curl, array(
     CURLOPT_RETURNTRANSFER => 1,
     CURLOPT_URL => 'https://api.kontakt.io/device/',
-    CURLOPT_HTTPHEADER  => array('Api-Key: ','Accept:application/vnd.com.kontakt+json;version=8'),));
+    CURLOPT_HTTPHEADER  => array('Api-Key: REPLACEWITHAPIKEY','Accept:application/vnd.com.kontakt+json;version=8'),));
 
 // Send the request & save response
 $json = curl_exec($curl);
