@@ -1,6 +1,3 @@
-<!--
-<a href="csv.php">Download CSV file</a><br><br>
--->
 <a href="csv.php">Download CSV file</a><br><br>
 
 <?php
